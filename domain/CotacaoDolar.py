@@ -8,4 +8,5 @@ def cotacao_dolar():
     alta = float(valor_dolar["USD"]["high"])
     baixa = float(valor_dolar["USD"]["low"])
     venda = float(valor_dolar["USD"]["bid"])
+
     return dolar(high=alta, low=baixa, bid=venda)

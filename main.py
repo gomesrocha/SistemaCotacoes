@@ -19,7 +19,7 @@ async def say_hello(name: str):
 
 @app.get("/cotacao")
 async def say_hello():
-    requisicao = requests.get('https://economia.awesomeapi.com.br/all/USD-BRL')
+    requisicao = requests.get("https://economia.awesomeapi.com.br/all/USD-BRL")
     cotacao = requisicao.json()
     return cotacao
 
